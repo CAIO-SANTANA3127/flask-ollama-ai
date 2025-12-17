@@ -1,25 +1,20 @@
-# OpenAI: Curso 1
+# 🤖 Aprendendo a Integrar uma Aplicação com o Ollama
+
+## 🎯 Objetivo
+
+Este projeto tem como objetivo demonstrar, de forma prática, como integrar uma aplicação Python com o **Ollama**, utilizando **modelos de linguagem executados localmente**.  
+O foco é aprender a consumir a API do Ollama, estruturar prompts, tratar respostas e desenvolver aplicações de IA **sem dependência de serviços externos ou custos por uso**.
+
+---
 
 ## ⚙️ Configuração do Ambiente
 
-### Criando e Ativando o Ambiente Virtual
+### 🧪 Criação e Ativação do Ambiente Virtual
 
-**Windows:**
-```bash
-python -m venv curso_1_openai
-curso_1_openai\Scripts\activate
-```
+O uso de um ambiente virtual é recomendado para isolar dependências do projeto.
 
-**Mac/Linux:**
-```bash
-python3 -m venv curso_1_openai
-source curso_1_openai/bin/activate
-```
-
-### Instalação das Bibliotecas
+#### 🪟 Windows
 
 ```bash
-pip install openai python-dotenv tiktoken
-```
-
-
+python -m venv veenv 
+ollama\Scripts\activate
