@@ -1,20 +1,53 @@
-# 🤖 Aprendendo a Integrar uma Aplicação com o Ollama
+# 🤖 Integração de Aplicação Python com Ollama
 
-## 🎯 Objetivo
+Projeto de aprendizado focado em integrar aplicações Python com modelos de IA locais usando Ollama.
 
-Este projeto tem como objetivo demonstrar, de forma prática, como integrar uma aplicação Python com o **Ollama**, utilizando **modelos de linguagem executados localmente**.  
-O foco é aprender a consumir a API do Ollama, estruturar prompts, tratar respostas e desenvolver aplicações de IA **sem dependência de serviços externos ou custos por uso**.
+## Autor
 
----
+**Caio** - Desenvolvedor aprendendo integração de IA
 
-## ⚙️ Configuração do Ambiente
+## Objetivo
 
-### 🧪 Criação e Ativação do Ambiente Virtual
+Explorar na prática a integração entre Python e Ollama para executar modelos de linguagem localmente, sem dependência de serviços externos ou custos de API.
 
-O uso de um ambiente virtual é recomendado para isolar dependências do projeto.
+### O que este projeto ensina:
+- Consumir a API do Ollama
+- Estruturar prompts eficientes
+- Tratar e manipular respostas de IA
+- Desenvolver aplicações independentes
 
-#### 🪟 Windows
+## 📚 Aprendizados
+
+- Comunicação Python ↔ Ollama via API
+- Boas práticas em engenharia de prompts
+- Estruturação de respostas para diferentes casos de uso
+- Fundamentos de integração de IA em projetos pessoais
+
+## Próximos Passos
+
+- [ ] Criar exemplos avançados de prompts
+- [ ] Integrar com Flask ou FastAPI
+- [ ] Explorar diferentes modelos do Ollama
+- [ ] Documentar casos de uso práticos
+
+## Como Usar
 
 ```bash
-python -m venv veenv 
-ollama\Scripts\activate
+# Clone o repositório
+git clone [seu-repositorio]
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Execute a aplicação
+python main.py
+```
+
+## Requisitos
+
+- Python 3.8+
+- Ollama instalado localmente
+- Bibliotecas listadas em `requirements.txt`
+
+---
+**Dica**: Certifique-se de ter o Ollama rodando antes de executar a aplicação.
