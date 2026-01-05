@@ -16,7 +16,7 @@ Explorar na prática a integração entre Python e Ollama para executar modelos 
 - Tratar e manipular respostas de IA
 - Desenvolver aplicações independentes
 
-## 📚 Aprendizados
+## Aprendizados
 
 - Comunicação Python ↔ Ollama via API
 - Boas práticas em engenharia de prompts
